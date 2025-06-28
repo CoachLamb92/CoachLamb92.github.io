@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+}
+button {
+    color: #000000;
+}
+div {
+    color: rgb(0, 0, 0);
+}
+.center {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.container > div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  font-size: 30px;
+  text-align: center
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 50px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 2px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+h1 {
+    color: rgb(154, 154, 199);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h4 {
+    color: rgb(154, 154, 199);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
