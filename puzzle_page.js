@@ -10,7 +10,7 @@ function delete_page() {
     document.getElementById("hidden_button").style.display = "none";
     document.getElementById("button_grid").style.display = "none";
     document.getElementById("instructions").style.display = "none";
-    setInterval('autoRefresh()', 2000);
+    setInterval('autoRefresh()', 5000);
 }
 
 function autoRefresh() {
