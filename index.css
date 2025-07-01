@@ -1,0 +1,30 @@
+a {
+
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    display : grid;
+	grid-template-columns: 25% 25% 25% 25%;
+}
+
+div {
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(154, 154, 199);
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    /* color: white; */
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+}
+
