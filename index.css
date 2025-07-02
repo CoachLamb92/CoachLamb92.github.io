@@ -1,5 +1,21 @@
 a {
+    color: white;
+    font-size: 30px;
+}
 
+a:link {
+    /* color: inherit; */
+    text-decoration: none;
+}
+
+a:hover {
+    color: hotpink;
+    text-decoration: underline;
+}
+
+a:active {
+    color: white;
+    text-decoration: underline;
 }
 
 body {
@@ -7,8 +23,13 @@ body {
 }
 
 .container {
-    display : grid;
+    display: grid;
 	grid-template-columns: 25% 25% 25% 25%;
+}
+
+.portfolio_container {
+    display: grid;
+	grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
 }
 
 div {
