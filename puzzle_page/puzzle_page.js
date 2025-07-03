@@ -39,3 +39,31 @@ function winning_page() {
     document.getElementById("instructions").style.display = "none";
     setInterval('autoRefresh()', 8000);
 }
+
+function waiting_dots_1() {
+    document.getElementById("dots").innerText = "......";
+}
+
+function waiting_dots_2() {
+    document.getElementById("dots").innerText = ".....";
+}
+
+function waiting_dots_3() {
+    document.getElementById("dots").innerText = "....";
+}
+
+function waiting_dots_4() {
+    document.getElementById("dots").innerText = "...";
+}
+
+function waiting_dots_5() {
+    document.getElementById("dots").innerText = "..";
+}
+
+function waiting_dots_6() {
+    document.getElementById("dots").innerText = ".";
+}
+
+function waiting_dots_6() {
+    document.getElementById("dots").innerText = "";
+}

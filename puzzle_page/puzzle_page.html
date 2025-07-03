@@ -7,6 +7,7 @@
     <body>
         <h1 id="title">The Game</h1>
         <button id="first_button" class="center" type="button" onclick="delete_page()">Don't press this button</button>
+        <p id="dots" style="text-align:center; color:white"></p>
         <h4 id="instructions" style="display:none">Choose carefully!</h4>
         <br><br>
         <button id="hidden_button" class="center" type="button" style="display:none" onclick="reveal_grid()">Press <ins>this</ins> button</button>
@@ -49,6 +50,13 @@
         <script src="puzzle_page.js"></script>
         <script>
             setTimeout('reveal_button()', 7000);
+            setTimeout('waiting_dots_1()', 1000);
+            setTimeout('waiting_dots_2()', 2000);
+            setTimeout('waiting_dots_3()', 3000);
+            setTimeout('waiting_dots_4()', 4000);
+            setTimeout('waiting_dots_5()', 5000);
+            setTimeout('waiting_dots_6()', 6000);
+            setTimeout('waiting_dots_7()', 7000);
         </script>
     </body>
 </html>
