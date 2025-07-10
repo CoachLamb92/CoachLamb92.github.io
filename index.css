@@ -25,8 +25,14 @@ body {
 .container {
     display: grid;
 	grid-template-columns: 25% 25% 25% 25%;
-}
 
+}
+.cv_job_titles {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+}
 .portfolio_container {
     display: grid;
 	grid-template-columns: 1fr 2fr 2fr 2fr 1fr;

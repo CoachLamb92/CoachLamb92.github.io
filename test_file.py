@@ -1,0 +1,7 @@
+bulbaSAUR
+ivySAUR
+venuSAUR
+SAURapod
+tyrannoSAURus
+sordid
+sausage
