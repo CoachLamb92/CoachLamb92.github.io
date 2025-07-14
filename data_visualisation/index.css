@@ -1,0 +1,57 @@
+a {
+    color: white;
+    font-size: 30px;
+}
+
+a:link {
+    /* color: inherit; */
+    text-decoration: none;
+}
+
+a:hover {
+    color: hotpink;
+    text-decoration: underline;
+}
+
+a:active {
+    color: white;
+    text-decoration: underline;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+
+}
+.cv_job_titles {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+}
+.portfolio_container {
+    display: grid;
+	grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+}
+
+div {
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(154, 154, 199);
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    color: white;
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+}
+
